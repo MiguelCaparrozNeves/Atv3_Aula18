@@ -6,7 +6,7 @@ var
 //variavel
   idade:real
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 
    escreva("Informe sua idade:")
    leia(idade)
@@ -22,7 +22,7 @@ inicio
    se idade>= 70 entao
    escreval("Voto opcional")
    senao
-   escreval("Voto obrigatório")
+   escreval("Voto obrigatÃ³rio")
 
 
    fimse
