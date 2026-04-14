@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-13 01:35:36 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODE2OzIwMjYtMDQtMTM7IjAxOjI1OjA2ICI7Mjg1Mw=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODE2OzIwMjYtMDQtMTM7IjAxOjM1OjM2ICI7MTsyOTY1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="soma, n1, n2, n3" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe o primeiro numero da soma:&quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Informe o segundo numero da soma:&quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;Informe o terceiro numero da soma:&quot;" newline="True"/>
+            <input variable="n3"/>
+            <assign variable="soma" expression="n1+n2+n3"/>
+            <output expression="&quot;A soma dos tr&#234;s numeros &#233;:&quot;&amp;soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
